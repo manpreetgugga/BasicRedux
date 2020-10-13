@@ -1,0 +1,102 @@
+[Info] Starting Packager
+
+                                                          
+               ######                ######               
+             ###     ####        ####     ###             
+            ##          ###    ###          ##            
+            ##             ####             ##            
+            ##             ####             ##            
+            ##           ##    ##           ##            
+            ##         ###      ###         ##            
+             ##  ########################  ##             
+          ######    ###            ###    ######          
+      ###     ##    ##              ##    ##     ###      
+   ###         ## ###      ####      ### ##         ###   
+  ##           ####      ########      ####           ##  
+ ##             ###     ##########     ###             ## 
+  ##           ####      ########      ####           ##  
+   ###         ## ###      ####      ### ##         ###   
+      ###     ##    ##              ##    ##     ###      
+          ######    ###            ###    ######          
+             ##  ########################  ##             
+            ##         ###      ###         ##            
+            ##           ##    ##           ##            
+            ##             ####             ##            
+            ##             ####             ##            
+            ##          ###    ###          ##            
+             ###     ####        ####     ###             
+               ######                ######               
+                                                          
+                 Welcome to React Native!
+                Learn once, write anywhere
+
+
+[Info] Packager started.
+
+[Info] Prewarming bundle cache. This may take a while ...
+
+[Info] About to get: http://localhost:8081/index.bundle?platform=android
+
+[Warning] The Bundle Cache was prewarmed.
+
+[Info] Building and running application.
+
+[Tue Oct 06 2020 13:37:24.515]  BUNDLE  ./index.js 
+
+[Error] Error: Error while executing command 'adb devices': Command failed: adb devices
+/bin/sh: 1: adb: not found
+
+
+[Info] Packager is already running.
+
+[Info] Prewarming bundle cache. This may take a while ...
+
+[Info] About to get: http://localhost:8081/index.bundle?platform=android
+
+[Warning] The Bundle Cache was prewarmed.
+
+[Info] Building and running application.
+
+[Tue Oct 06 2020 13:38:28.309]  BUNDLE  ./index.js 
+
+[Error] Error: Error while executing command 'adb devices': Command failed: adb devices
+/bin/sh: 1: adb: not found
+
+
+[Info] Packager is already running.
+
+[Info] Prewarming bundle cache. This may take a while ...
+
+[Info] About to get: http://localhost:8081/index.bundle?platform=android
+
+[Warning] The Bundle Cache was prewarmed.
+
+[Info] Building and running application.
+
+[Tue Oct 06 2020 13:41:17.333]  BUNDLE  ./index.js 
+
+[Tue Oct 06 2020 13:41:23.550]  BUNDLE  ./index.js 
+
+[Tue Oct 06 2020 13:41:25.216]  LOG      Running "basicreduxexample" with {"rootTag":1}
+[Tue Oct 06 2020 13:41:25.217]  LOG      Pressed
+[Tue Oct 06 2020 13:41:26.680]  LOG      Pressed
+[Tue Oct 06 2020 13:41:26.836]  LOG      Pressed
+[Tue Oct 06 2020 13:41:27.100]  LOG      Pressed
+[Tue Oct 06 2020 13:41:27.180]  LOG      Pressed
+[Tue Oct 06 2020 13:41:27.296]  LOG      Pressed
+[Tue Oct 06 2020 13:41:28.870]  LOG      Pressed
+[Tue Oct 06 2020 13:41:28.213]  LOG      Pressed
+[Tue Oct 06 2020 13:41:28.374]  LOG      Pressed
+[Tue Oct 06 2020 13:41:28.529]  LOG      Pressed
+[Tue Oct 06 2020 13:41:28.682]  LOG      Pressed
+[Tue Oct 06 2020 13:41:28.817]  LOG      Pressed
+[Error] Error: Error while executing command 'adb devices': Command failed: adb devices
+/bin/sh: 1: adb: not found
+
+
+[Info] Stopping Packager
+
+[Info] Packager stopped
+
+[Warning] Error: Packager is not running
+

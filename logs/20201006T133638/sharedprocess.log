@@ -1,0 +1,11 @@
+[2020-10-06 13:36:41.787] [sharedprocess] [info] main {"machineId":"63175221143fd36afdddd7adeb35fc43adff079755f2d6551dc36febfb487094","windowId":2}
+[2020-10-06 13:36:41.829] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/User/snippets'
+[2020-10-06 13:37:21.805] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-10-06 13:47:06.561] [sharedprocess] [info] Uninstalling extension: equimper.react-native-react-redux
+[2020-10-06 13:47:06.578] [sharedprocess] [info] Successfully uninstalled extension: equimper.react-native-react-redux
+[2020-10-06 13:47:59.377] [sharedprocess] [info] Uninstalling extension: msjsdiag.vscode-react-native
+[2020-10-06 13:47:59.389] [sharedprocess] [info] Successfully uninstalled extension: msjsdiag.vscode-react-native
+[2020-10-06 13:48:13.608] [sharedprocess] [info] Installing extension: msjsdiag.vscode-react-native
+[2020-10-06 13:48:19.756] [sharedprocess] [info] Downloaded extension: msjsdiag.vscode-react-native /home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/CachedExtensionVSIXs/msjsdiag.vscode-react-native-1.0.1
+[2020-10-06 13:48:19.781] [sharedprocess] [info] Removed the extension from uninstalled list: msjsdiag.vscode-react-native
+[2020-10-06 13:48:19.834] [sharedprocess] [info] Extensions installed successfully: msjsdiag.vscode-react-native

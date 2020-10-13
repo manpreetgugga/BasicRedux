@@ -1,0 +1,36 @@
+[Warning] Error: Packager is still running. If the packager was started outside VS Code, please quit the packager process using the task manager.
+
+[Info] Packager is already running.
+
+[Warning] Error: React Native Packager running outside of VS Code. If you want to debug please use the 'Attach to packager' option
+
+[Warning] Error: Packager is still running. If the packager was started outside VS Code, please quit the packager process using the task manager.
+
+[Info] Packager is already running.
+
+[Warning] Error: React Native Packager running outside of VS Code. If you want to debug please use the 'Attach to packager' option
+
+[Warning] Error: Packager is still running. If the packager was started outside VS Code, please quit the packager process using the task manager.
+
+[Info] Packager is already running.
+
+[Warning] Error: React Native Packager running outside of VS Code. If you want to debug please use the 'Attach to packager' option
+
+[Info] Prewarming bundle cache. This may take a while ...
+
+[Info] About to get: http://localhost:8081/index.bundle?platform=android
+
+[Info] Building and running application.
+
+[Error] Error: Error while executing command 'adb devices': Command failed: adb devices
+/bin/sh: 1: adb: not found
+
+
+[Warning] Error: Packager is still running. If the packager was started outside VS Code, please quit the packager process using the task manager.
+
+[Info] Packager is already running.
+
+[Warning] Error: React Native Packager running outside of VS Code. If you want to debug please use the 'Attach to packager' option
+
+[Warning] Error: Packager is still running. If the packager was started outside VS Code, please quit the packager process using the task manager.
+

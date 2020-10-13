@@ -1,0 +1,348 @@
+[Warning] Target simulator is not supported for Android platform. 
+ If you want to use particular device or simulator for launching Android app,
+ please specify device id (as in 'adb devices' output) instead.
+
+[Info] No sdk.dir value found in local.properties file. Using Android SDK location from PATH.
+
+[Info] Starting React Native Packager.
+
+info Running jetifier to migrate libraries to AndroidX. You can disable it using "--no-jetifier" flag.
+Jetifier found 967 file(s) to forward-jetify. Using 8 workers...
+/bin/sh: 1: adb: not found
+info Launching emulator...
+error Failed to launch emulator. Reason: No emulators found as an output of `emulator -list-avds`.
+warn Please launch an emulator manually or connect a device. Otherwise app may fail to launch.
+info Installing the app...
+> Task :app:generatePackageList
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:bundleDebugJsAndAssets SKIPPED
+> Task :app:generateDebugResValues
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :app:checkDebugDuplicateClasses
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugResources
+> Task :app:processDebugManifest
+> Task :app:mergeDebugAssets
+> Task :app:mergeDebugResources
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugNativeLibs
+> Task :app:transformClassesWithDexBuilderForDebug
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libfb.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libjsc.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libflipper.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libhermes-executor-release.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libfbjni.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libimagepipeline.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libc++_shared.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libyoga.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libjscexecutor.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libjsijniprofiler.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libevent-2.1.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libfb.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libjsc.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libhermes-executor-release.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libglog_init.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libevent_core-2.1.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libreactnativejni.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libfolly_json.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libglog.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libhermes-inspector.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libreactnativeblob.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libevent_extra-2.1.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libnative-imagetranscoder.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libjsinspector.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libjscexecutor.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libjsijniprofiler.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libevent-2.1.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libjsc.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libhermes-executor-release.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libimagepipeline.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libc++_shared.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libglog_init.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libevent_core-2.1.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libreactnativejni.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libhermes-executor-debug.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libfolly_json.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libglog.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libnative-filters.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libhermes-inspector.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libfolly_futures.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libnative-imagetranscoder.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libjsinspector.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libyoga.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libjscexecutor.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libjsijniprofiler.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libevent-2.1.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libfb.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libjsc.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libflipper.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libhermes-executor-release.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libfbjni.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libglog_init.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libevent_core-2.1.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libreactnativejni.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libglog.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libnative-filters.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libhermes-inspector.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libfolly_futures.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libevent_extra-2.1.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libnative-imagetranscoder.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libjsinspector.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libyoga.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+
+> Task :app:stripDebugDebugSymbols
+Compatible side by side NDK version was not found.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libjscexecutor.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libjsijniprofiler.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libevent-2.1.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libglog_init.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libevent_core-2.1.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libreactnativejni.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libhermes-executor-debug.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libfolly_json.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libglog.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libnative-filters.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libhermes-inspector.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libfolly_futures.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libreactnativeblob.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libevent_extra-2.1.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libnative-imagetranscoder.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libjsinspector.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libflipper.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libfbjni.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libimagepipeline.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libc++_shared.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libhermes-executor-debug.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libnative-filters.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libfolly_futures.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libyoga.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libfb.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libflipper.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libfbjni.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libreactnativeblob.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libevent_extra-2.1.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libimagepipeline.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libc++_shared.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libhermes-executor-debug.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libfolly_json.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libreactnativeblob.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeExtDexDebug
+> Task :app:copyDebugBundledJs SKIPPED
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+
+> Task :app:installDebug
+01:38:12 V/ddms: execute: running am get-config
+01:38:12 V/ddms: execute 'am get-config' on 'emulator-5554' : EOF hit. Read: -1
+01:38:12 V/ddms: execute: returning
+Installing APK 'app-debug.apk' on 'emulator-5554 - 10' for app:debug
+01:38:12 D/app-debug.apk: Uploading app-debug.apk onto device 'emulator-5554'
+01:38:12 D/Device: Uploading file onto device 'emulator-5554'
+01:38:12 D/ddms: Reading file permision of /home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/outputs/apk/debug/app-debug.apk as: rw-r--r--
+01:38:12 V/ddms: execute: running pm install -r -t "/data/local/tmp/app-debug.apk"
+01:38:13 V/ddms: execute 'pm install -r -t "/data/local/tmp/app-debug.apk"' on 'emulator-5554' : EOF hit. Read: -1
+01:38:13 V/ddms: execute: returning
+01:38:13 V/ddms: execute: running rm "/data/local/tmp/app-debug.apk"
+01:38:13 V/ddms: execute 'rm "/data/local/tmp/app-debug.apk"' on 'emulator-5554' : EOF hit. Read: -1
+01:38:13 V/ddms: execute: returning
+Installed on 1 device.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 21s
+27 actionable tasks: 27 executed
+info Connecting to the development server...
+warn Failed to connect to development server using "adb reverse": spawnSync adb ENOENT
+info Starting the app...
+error Failed to start the app. Run CLI with --verbose flag for more details.
+Error: spawnSync adb ENOENT
+    at Object.spawnSync (internal/child_process.js:990:20)
+[Warning] Target simulator is not supported for Android platform. 
+ If you want to use particular device or simulator for launching Android app,
+ please specify device id (as in 'adb devices' output) instead.
+
+[Info] No sdk.dir value found in local.properties file. Using Android SDK location from PATH.
+
+[Info] Starting React Native Packager.
+
+[Info] Attaching to running React Native packager
+
+info Running jetifier to migrate libraries to AndroidX. You can disable it using "--no-jetifier" flag.
+Jetifier found 967 file(s) to forward-jetify. Using 8 workers...
+/bin/sh: 1: adb: not found
+info Launching emulator...
+error Failed to launch emulator. Reason: No emulators found as an output of `emulator -list-avds`.
+warn Please launch an emulator manually or connect a device. Otherwise app may fail to launch.
+info Installing the app...
+> Task :app:generatePackageList
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:checkDebugManifest UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mainApkListPersistenceDebug UP-TO-DATE
+> Task :app:bundleDebugJsAndAssets SKIPPED
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders UP-TO-DATE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:copyDebugBundledJs SKIPPED
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:transformClassesWithDexBuilderForDebug UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeDexDebug UP-TO-DATE
+> Task :app:signingConfigWriterDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+Compatible side by side NDK version was not found.
+
+> Task :app:packageDebug UP-TO-DATE
+
+> Task :app:installDebug
+01:38:37 V/ddms: execute: running am get-config
+01:38:38 V/ddms: execute 'am get-config' on 'emulator-5554' : EOF hit. Read: -1
+01:38:38 V/ddms: execute: returning
+Installing APK 'app-debug.apk' on 'emulator-5554 - 10' for app:debug
+01:38:38 D/app-debug.apk: Uploading app-debug.apk onto device 'emulator-5554'
+01:38:38 D/Device: Uploading file onto device 'emulator-5554'
+01:38:38 D/ddms: Reading file permision of /home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/outputs/apk/debug/app-debug.apk as: rw-r--r--
+01:38:38 V/ddms: execute: running pm install -r -t "/data/local/tmp/app-debug.apk"
+01:38:39 V/ddms: execute 'pm install -r -t "/data/local/tmp/app-debug.apk"' on 'emulator-5554' : EOF hit. Read: -1
+01:38:39 V/ddms: execute: returning
+01:38:39 V/ddms: execute: running rm "/data/local/tmp/app-debug.apk"
+01:38:39 V/ddms: execute 'rm "/data/local/tmp/app-debug.apk"' on 'emulator-5554' : EOF hit. Read: -1
+01:38:39 V/ddms: execute: returning
+Installed on 1 device.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 6s
+27 actionable tasks: 2 executed, 25 up-to-date
+info Connecting to the development server...
+warn Failed to connect to development server using "adb reverse": spawnSync adb ENOENT
+info Starting the app...
+error Failed to start the app. Run CLI with --verbose flag for more details.
+Error: spawnSync adb ENOENT
+    at Object.spawnSync (internal/child_process.js:990:20)
+[Warning] Target simulator is not supported for Android platform. 
+ If you want to use particular device or simulator for launching Android app,
+ please specify device id (as in 'adb devices' output) instead.
+
+[Info] No sdk.dir value found in local.properties file. Using Android SDK location from PATH.
+
+[Info] Starting React Native Packager.
+
+[Info] Attaching to running React Native packager
+
+info Running jetifier to migrate libraries to AndroidX. You can disable it using "--no-jetifier" flag.
+Jetifier found 967 file(s) to forward-jetify. Using 8 workers...
+/bin/sh: 1: adb: not found
+info Launching emulator...
+error Failed to launch emulator. Reason: No emulators found as an output of `emulator -list-avds`.
+warn Please launch an emulator manually or connect a device. Otherwise app may fail to launch.
+info Installing the app...
+> Task :app:generatePackageList
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:checkDebugManifest UP-TO-DATE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mainApkListPersistenceDebug UP-TO-DATE
+> Task :app:bundleDebugJsAndAssets SKIPPED
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders UP-TO-DATE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:copyDebugBundledJs SKIPPED
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:transformClassesWithDexBuilderForDebug UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:signingConfigWriterDebug UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+Compatible side by side NDK version was not found.
+
+> Task :app:packageDebug UP-TO-DATE
+
+> Task :app:installDebug
+01:41:28 V/ddms: execute: running am get-config
+01:41:28 V/ddms: execute 'am get-config' on 'emulator-5554' : EOF hit. Read: -1
+01:41:28 V/ddms: execute: returning
+Installing APK 'app-debug.apk' on 'emulator-5554 - 10' for app:debug
+01:41:28 D/app-debug.apk: Uploading app-debug.apk onto device 'emulator-5554'
+01:41:28 D/Device: Uploading file onto device 'emulator-5554'
+01:41:28 D/ddms: Reading file permision of /home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/outputs/apk/debug/app-debug.apk as: rw-r--r--
+01:41:28 V/ddms: execute: running pm install -r -t "/data/local/tmp/app-debug.apk"
+01:41:29 V/ddms: execute 'pm install -r -t "/data/local/tmp/app-debug.apk"' on 'emulator-5554' : EOF hit. Read: -1
+01:41:29 V/ddms: execute: returning
+01:41:29 V/ddms: execute: running rm "/data/local/tmp/app-debug.apk"
+01:41:30 V/ddms: execute 'rm "/data/local/tmp/app-debug.apk"' on 'emulator-5554' : EOF hit. Read: -1
+01:41:30 V/ddms: execute: returning
+Installed on 1 device.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 8s
+27 actionable tasks: 2 executed, 25 up-to-date
+info Connecting to the development server...
+warn Failed to connect to development server using "adb reverse": spawnSync adb ENOENT
+info Starting the app...
+error Failed to start the app. Run CLI with --verbose flag for more details.
+Error: spawnSync adb ENOENT
+    at Object.spawnSync (internal/child_process.js:990:20)

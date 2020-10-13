@@ -1,0 +1,223 @@
+[Warning] Target simulator is not supported for Android platform. 
+ If you want to use particular device or simulator for launching Android app,
+ please specify device id (as in 'adb devices' output) instead.
+
+[Info] No sdk.dir value found in local.properties file. Using Android SDK location from PATH.
+
+[Info] Starting React Native Packager.
+
+info Running jetifier to migrate libraries to AndroidX. You can disable it using "--no-jetifier" flag.
+Jetifier found 1076 file(s) to forward-jetify. Using 8 workers...
+/bin/sh: 1: adb: not found
+info Launching emulator...
+error Failed to launch emulator. Reason: No emulators found as an output of `emulator -list-avds`.
+warn Please launch an emulator manually or connect a device. Otherwise app may fail to launch.
+info Installing the app...
+> Task :app:generatePackageList
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :react-native-community_masked-view:preBuild UP-TO-DATE
+> Task :react-native-community_masked-view:preDebugBuild UP-TO-DATE
+> Task :react-native-gesture-handler:preBuild UP-TO-DATE
+> Task :react-native-gesture-handler:preDebugBuild UP-TO-DATE
+> Task :react-native-community_masked-view:compileDebugAidl NO-SOURCE
+> Task :react-native-gesture-handler:compileDebugAidl NO-SOURCE
+> Task :react-native-reanimated:preBuild UP-TO-DATE
+> Task :react-native-reanimated:preDebugBuild UP-TO-DATE
+> Task :react-native-safe-area-context:preBuild UP-TO-DATE
+> Task :react-native-safe-area-context:preDebugBuild UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugAidl NO-SOURCE
+> Task :react-native-reanimated:compileDebugAidl NO-SOURCE
+> Task :react-native-screens:preBuild UP-TO-DATE
+> Task :react-native-screens:preDebugBuild UP-TO-DATE
+> Task :react-native-screens:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :react-native-community_masked-view:packageDebugRenderscript NO-SOURCE
+> Task :react-native-gesture-handler:packageDebugRenderscript NO-SOURCE
+> Task :react-native-reanimated:packageDebugRenderscript NO-SOURCE
+> Task :react-native-safe-area-context:packageDebugRenderscript NO-SOURCE
+> Task :react-native-screens:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest UP-TO-DATE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-community_masked-view:checkDebugManifest
+> Task :react-native-community_masked-view:compileDebugRenderscript NO-SOURCE
+> Task :react-native-community_masked-view:generateDebugBuildConfig
+> Task :react-native-community_masked-view:generateDebugResValues
+> Task :react-native-community_masked-view:generateDebugResources
+> Task :react-native-community_masked-view:packageDebugResources
+> Task :react-native-gesture-handler:checkDebugManifest
+> Task :react-native-gesture-handler:generateDebugBuildConfig
+> Task :react-native-gesture-handler:generateDebugResValues
+> Task :react-native-gesture-handler:compileDebugRenderscript NO-SOURCE
+> Task :react-native-gesture-handler:generateDebugResources
+> Task :react-native-gesture-handler:packageDebugResources
+> Task :react-native-gesture-handler:processDebugManifest
+> Task :react-native-community_masked-view:parseDebugLibraryResources
+> Task :react-native-gesture-handler:javaPreCompileDebug
+> Task :react-native-reanimated:checkDebugManifest
+> Task :react-native-reanimated:generateDebugBuildConfig
+> Task :react-native-reanimated:generateDebugResValues
+> Task :react-native-reanimated:compileDebugRenderscript NO-SOURCE
+> Task :react-native-reanimated:generateDebugResources
+> Task :react-native-reanimated:packageDebugResources
+> Task :react-native-reanimated:parseDebugLibraryResources
+> Task :react-native-community_masked-view:processDebugManifest
+> Task :react-native-community_masked-view:javaPreCompileDebug
+> Task :react-native-safe-area-context:compileDebugRenderscript NO-SOURCE
+> Task :react-native-safe-area-context:checkDebugManifest
+> Task :react-native-safe-area-context:generateDebugBuildConfig
+> Task :react-native-reanimated:javaPreCompileDebug
+> Task :react-native-safe-area-context:generateDebugResValues
+> Task :react-native-safe-area-context:generateDebugResources
+> Task :react-native-safe-area-context:packageDebugResources
+> Task :react-native-safe-area-context:parseDebugLibraryResources
+> Task :react-native-gesture-handler:parseDebugLibraryResources
+> Task :react-native-reanimated:processDebugManifest
+> Task :react-native-safe-area-context:javaPreCompileDebug
+> Task :react-native-safe-area-context:processDebugManifest
+> Task :react-native-screens:compileDebugRenderscript NO-SOURCE
+> Task :react-native-screens:checkDebugManifest
+> Task :react-native-screens:generateDebugBuildConfig
+> Task :react-native-screens:generateDebugResValues
+> Task :react-native-screens:generateDebugResources
+> Task :react-native-screens:packageDebugResources
+> Task :react-native-screens:parseDebugLibraryResources
+> Task :react-native-screens:javaPreCompileDebug
+> Task :react-native-gesture-handler:generateDebugRFile
+
+> Task :react-native-gesture-handler:compileDebugJavaWithJavac
+
+> Task :react-native-reanimated:generateDebugRFile
+> Task :react-native-screens:processDebugManifest
+
+> Task :react-native-reanimated:compileDebugJavaWithJavac
+
+> Task :react-native-gesture-handler:bundleLibCompileDebug
+> Task :react-native-community_masked-view:generateDebugRFile
+> Task :react-native-community_masked-view:compileDebugJavaWithJavac
+> Task :react-native-reanimated:bundleLibCompileDebug
+> Task :react-native-safe-area-context:generateDebugRFile
+> Task :react-native-safe-area-context:compileDebugJavaWithJavac
+> Task :react-native-screens:generateDebugRFile
+
+> Task :react-native-screens:compileDebugJavaWithJavac
+
+> Task :react-native-screens:bundleLibCompileDebug
+> Task :react-native-community_masked-view:bundleLibCompileDebug
+> Task :react-native-safe-area-context:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mainApkListPersistenceDebug UP-TO-DATE
+> Task :app:bundleDebugJsAndAssets SKIPPED
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders UP-TO-DATE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :react-native-community_masked-view:mergeDebugShaders
+> Task :react-native-community_masked-view:compileDebugShaders
+> Task :react-native-community_masked-view:generateDebugAssets
+> Task :react-native-community_masked-view:packageDebugAssets
+> Task :react-native-gesture-handler:mergeDebugShaders
+> Task :react-native-gesture-handler:compileDebugShaders
+> Task :react-native-gesture-handler:generateDebugAssets
+> Task :react-native-gesture-handler:packageDebugAssets
+> Task :react-native-reanimated:mergeDebugShaders
+> Task :react-native-reanimated:compileDebugShaders
+> Task :react-native-reanimated:generateDebugAssets
+> Task :react-native-reanimated:packageDebugAssets
+> Task :react-native-safe-area-context:mergeDebugShaders
+> Task :react-native-safe-area-context:compileDebugShaders
+> Task :react-native-safe-area-context:generateDebugAssets
+> Task :react-native-safe-area-context:packageDebugAssets
+> Task :react-native-screens:mergeDebugShaders
+> Task :react-native-screens:compileDebugShaders
+> Task :react-native-screens:generateDebugAssets
+> Task :react-native-screens:packageDebugAssets
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:copyDebugBundledJs SKIPPED
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :react-native-community_masked-view:processDebugJavaRes NO-SOURCE
+> Task :react-native-community_masked-view:bundleLibResDebug
+> Task :react-native-gesture-handler:processDebugJavaRes NO-SOURCE
+> Task :react-native-reanimated:processDebugJavaRes NO-SOURCE
+> Task :react-native-safe-area-context:processDebugJavaRes NO-SOURCE
+> Task :react-native-screens:processDebugJavaRes NO-SOURCE
+> Task :react-native-safe-area-context:bundleLibResDebug
+> Task :react-native-gesture-handler:bundleLibResDebug
+> Task :react-native-reanimated:bundleLibResDebug
+> Task :react-native-gesture-handler:bundleLibRuntimeDebug
+> Task :react-native-safe-area-context:bundleLibRuntimeDebug
+> Task :react-native-reanimated:bundleLibRuntimeDebug
+> Task :react-native-screens:bundleLibResDebug
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :react-native-community_masked-view:bundleLibRuntimeDebug
+> Task :react-native-screens:bundleLibRuntimeDebug
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:transformClassesWithDexBuilderForDebug UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:signingConfigWriterDebug UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-community_masked-view:mergeDebugJniLibFolders
+> Task :react-native-gesture-handler:mergeDebugJniLibFolders
+> Task :react-native-community_masked-view:mergeDebugNativeLibs
+> Task :react-native-community_masked-view:stripDebugDebugSymbols
+> Task :react-native-community_masked-view:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :react-native-reanimated:mergeDebugJniLibFolders
+> Task :react-native-gesture-handler:mergeDebugNativeLibs
+> Task :react-native-gesture-handler:stripDebugDebugSymbols
+> Task :react-native-gesture-handler:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :react-native-safe-area-context:mergeDebugJniLibFolders
+> Task :react-native-reanimated:mergeDebugNativeLibs
+> Task :react-native-reanimated:stripDebugDebugSymbols
+> Task :react-native-safe-area-context:mergeDebugNativeLibs
+> Task :react-native-reanimated:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :react-native-safe-area-context:stripDebugDebugSymbols
+> Task :react-native-safe-area-context:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :react-native-screens:mergeDebugJniLibFolders
+> Task :react-native-screens:mergeDebugNativeLibs
+> Task :react-native-screens:stripDebugDebugSymbols
+> Task :react-native-screens:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+Compatible side by side NDK version was not found.
+
+> Task :app:mergeDexDebug UP-TO-DATE
+> Task :app:packageDebug UP-TO-DATE
+
+> Task :app:installDebug
+04:24:57 V/ddms: execute: running am get-config
+04:24:57 V/ddms: execute 'am get-config' on 'emulator-5554' : EOF hit. Read: -1
+04:24:57 V/ddms: execute: returning
+Installing APK 'app-debug.apk' on 'emulator-5554 - 10' for app:debug
+04:24:57 D/app-debug.apk: Uploading app-debug.apk onto device 'emulator-5554'
+04:24:57 D/Device: Uploading file onto device 'emulator-5554'
+04:24:57 D/ddms: Reading file permision of /home/manpreetsinghgugga/Desktop/ReactNativeGitExamples/basicreduxexample/android/app/build/outputs/apk/debug/app-debug.apk as: rwxrwxrwx
+04:24:57 V/ddms: execute: running pm install -r -t "/data/local/tmp/app-debug.apk"
+04:24:59 V/ddms: execute 'pm install -r -t "/data/local/tmp/app-debug.apk"' on 'emulator-5554' : EOF hit. Read: -1
+04:24:59 V/ddms: execute: returning
+04:24:59 V/ddms: execute: running rm "/data/local/tmp/app-debug.apk"
+04:24:59 V/ddms: execute 'rm "/data/local/tmp/app-debug.apk"' on 'emulator-5554' : EOF hit. Read: -1
+04:24:59 V/ddms: execute: returning
+Installed on 1 device.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 12s
+122 actionable tasks: 97 executed, 25 up-to-date
+info Connecting to the development server...
+warn Failed to connect to development server using "adb reverse": spawnSync adb ENOENT
+info Starting the app...
+error Failed to start the app. Run CLI with --verbose flag for more details.
+Error: spawnSync adb ENOENT
+    at Object.spawnSync (internal/child_process.js:990:20)
